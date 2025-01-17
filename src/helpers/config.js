@@ -15,7 +15,7 @@ const bs58 = require("bs58");
 const path = require("path");
 // default path: /Users/{your_user_name}/Desktop/Solana-Memecoin-CLI/src/helpers/.env
 // please specify your own .env path
-const envPath = path.join(__dirname, ".env");
+const envPath = path.join("/a0/vault/", ".env");
 dotenv.config({
   path: envPath, // fill in your .env path
 });
